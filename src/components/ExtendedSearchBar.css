@@ -1,0 +1,31 @@
+/* ExtendedSearchBar.css */
+.extended-search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 90px;
+  }
+  
+  .extended-search-bar input {
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 500px;
+  }
+  
+  .extended-search-bar button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  .search-type-dropdown {
+    height: 32.5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }

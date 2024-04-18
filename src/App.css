@@ -1,0 +1,46 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.property-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-top: 150px; */
+}
+.background-container {
+  position: relative;
+  background-image: url('https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  height: 250px; 
+}
+
+.extended-search-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
+.property-listing-container h1{
+  margin-top: 280px;
+}
+
+.property-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.property-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
